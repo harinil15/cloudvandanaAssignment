@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Customer Form</title>
+    <link rel="stylesheet" href="CustomerSurveyForm.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1> Customer Survey Form</h1>
+        <h3 id="message"></h3>
+        <form id="form"  novalidate>
+            
+            <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname"  name="fname" required minlength="3" maxlength="100" />
+            
+            
+            </div><br>
+            <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" required minlength="1
+                " maxlength="100" />
+            
+            </div><br>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email"  name="email" placeholder="example@gmail.com" required/>
+            
+            </div><br>
+            <div class="form-group">
+                <label for="phone">phone Number</label>
+                <input type="tel" id="phone" name="phone" required />
+            
+            </div><br>
+            <div class="form-group">
+                <label for="birthday">Date of Birth</label>
+                <input type="date" id="birthday" name="birthday" required />
+            
+            </div><br>
+            <div class="form-group"><br>
+                
+                <label for="Profession">Profession</label>
+                <input type="text" id="Profession"  name="Profession" required/>
+            
+            </div><br><br>
+            <div class="form-group">
+                <div class>Gender</div>
+              <span><input type="radio" id="gender" name="gender" value="Male">
+                <label for="mgender"> Male</label>
+                <input type="radio" id="gender" name="gender" value="Female">
+                <label for="fgender"> Female</label></span>
+            
+            </div><br>
+            
+            <div class="form-group">
+                <div class="country" >Country</div>
+                <select  name='dropbox' id="Country" >
+                    <option value="Select">Select</option>
+                    <option value="Afghanistan">Afghanistan</option>
+                    <option value="Åland Islands">Åland Islands</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                    <option value="Botswana">Botswana</option>
+                    <option value="Hungary">Hungary</option>
+                    <option value="Iceland">Iceland</option>
+                    <option value="India">India</option>
+                    <option value="Indonesia">Indonesia</option>
+                    <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>>
+                    <option value="Ireland">Ireland</option>
+                    
+                </select>
+                </div><br><br>
+               
+            <button type='submit' value='submit' id="submit" >Submit</button>
+            <button type='reset' value='reset' onclick="resetFunction()" id="reset" >Reset</button>
+            <br>
+            <br>
+        </form>
+
+
+    </div>
+
+
+
+    <script src="CustomerSurveyForm.js"></script>
+    
+</body>
+</html>

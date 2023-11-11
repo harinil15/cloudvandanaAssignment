@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+</style>);
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  min-height: 100vh;
+ 
+  padding: auto;
+  font-family: 'Lora', serif;
+  letter-spacing: 1px;
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  background-color:#ffffff;
+  background-image: url(https://media.istockphoto.com/id/1432473911/photo/abstract-blue-background-or-dark-paper-with-bright-center-spotlight-and-black-vignette-border.jpg?s=1024x1024&w=is&k=20&c=rkff9j6PiTBVJ22i1jQ4yQuxzl6g_jIEHYEE9RoM0o4=);
+.container{
+  margin: 25px 10px 15px 20px;
+  width: 400px ;
+  height: auto;
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding-top: 2px;
+  border-style:solid;
+  border-width:5px;
+
+}
+h1{
+  letter-spacing: 1px;
+  padding: 5px 0 0 0px;
+  margin-bottom: 0px;
+  color: rgb(22,22,22);
+}
+form{
+  width: 90%;
+  padding-bottom: 20px;
+}
+.form-group{
+  height: 30px;
+}
+label{
+  position: relative;
+  bottom: 4px;
+  font-size: 0.96rem;
+}
+.gender{
+  position: relative;
+  bottom: 4px;
+  font-size: 0.96rem;
+  
+
+}
+.country{
+  position: relative;
+  bottom: 4px;
+  font-size: 0.96rem;
+
+}
+input[type=text],input[type=email],input[type=tel],input[type=date]{
+  width: 100%;
+  height: 20px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
+button{
+  cursor: pointer;
+  color: white;
+  background-color:rgb(146, 143, 143);
+  border: none;
+  border-radius: 5px;
+  width: 25%;
+  height: 30px;
+  padding: 10px;
+  margin: 5px;
+}
+button:focus{
+  background-color: black;
+  box-shadow: 0 0 0 2px rgb(0,0,0.2);
+}
+button:hover{
+  color:white;
+  background-color: black;
+}
+#message{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-weight: 200;
+  padding-bottom: 5PX;
+}
+input:valid{
+  border: 1px solid green;
+}
+input:invalid{
+  border: 1px solid red;
+}
+
